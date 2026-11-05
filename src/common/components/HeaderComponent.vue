@@ -21,7 +21,7 @@
             </button>
             <!-- Menu -->
             <nav class="collapse navbar-collapse" id="mainNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <RouterLink class="nav-link" to="/" exact-active-class="active"
                             >Home</RouterLink
@@ -35,6 +35,11 @@
                     <li class="nav-item">
                         <RouterLink class="nav-link" to="/contact" exact-active-class="active"
                             >Contact</RouterLink
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink class="nav-link" to="/tasks" exact-active-class="active"
+                            >Tasks</RouterLink
                         >
                     </li>
                 </ul>
